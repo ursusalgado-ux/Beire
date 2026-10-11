@@ -1,0 +1,8 @@
+{
+  "name": "CondoBeire - Control de Condominios BEIRE A.C.",
+  "description": "Sistema integral de gestión de condominios BEIRE A.C. para 117 casas. Control de agua, mantenimiento, estados de cuenta, reportes en tiempo real, minutas y convenios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

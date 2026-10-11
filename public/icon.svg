@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Shield with safe margin -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+
+  <!-- Outer Emblem Border -->
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-dasharray="16 8" opacity="0.6" />
+
+  <!-- Shield Shape -->
+  <path d="M 256 80 Q 360 80 390 150 Q 390 320 256 420 Q 122 320 122 150 Q 152 80 256 80 Z" fill="#1e293b" stroke="url(#goldGrad)" stroke-width="10" />
+
+  <!-- Sun Rays / Gold Ornamentation -->
+  <circle cx="256" cy="210" r="60" fill="url(#goldGrad)" opacity="0.25" />
+  <circle cx="256" cy="210" r="42" fill="url(#goldGrad)" />
+  <circle cx="256" cy="210" r="26" fill="#1e293b" />
+
+  <!-- House roof & building icon inside -->
+  <path d="M 216 260 L 256 226 L 296 260 L 296 320 L 216 320 Z" fill="#f8fafc" />
+  <path d="M 206 262 L 256 220 L 306 262" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Water Drop in Center -->
+  <path d="M 256 265 C 256 265 240 286 240 298 C 240 307 247 314 256 314 C 265 314 272 307 272 298 C 272 286 256 265 256 265 Z" fill="url(#waterGrad)" />
+
+  <!-- Laurel Wreath Leaves / Wings -->
+  <path d="M 170 330 Q 190 360 256 385 Q 322 360 342 330" fill="none" stroke="url(#goldGrad)" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Condominio BEIRE Monogram -->
+  <text x="256" y="145" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#fef08a" letter-spacing="4">BEIRE</text>
+  <text x="256" y="170" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#94a3b8" letter-spacing="2">A.C. 117 CASAS</text>
+</svg>
